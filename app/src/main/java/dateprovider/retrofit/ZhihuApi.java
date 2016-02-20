@@ -30,7 +30,7 @@ public interface ZhihuApi {
     @GET("/start-image/{ratio}")
     Observable<StartPicture> getStartPicture(@Path("ratio") String ratio);
 
-
+    
     @GET("/news/latest")
     Observable<LatestNews> getLatestNews();
 

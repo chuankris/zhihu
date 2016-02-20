@@ -39,6 +39,13 @@ public class AppConfig {
         return ONE_URL_BASE;
     }
 
+    public static String getNewOneUrl() {
+        return NEW_ONE_URL;
+    }
+
+    private static String NEW_ONE_URL = "http://v3.wufazhuce.com:8000";
+
+
     private static String ZHIHU_URL_BASE = "http://news-at.zhihu.com/api/4";
 
     public static String getZhihuUrl() {

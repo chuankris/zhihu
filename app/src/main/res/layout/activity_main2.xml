@@ -53,4 +53,19 @@
         android:text="短评论" />
 
 
+    <Button
+        android:id="@+id/bt_one_list_bymonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_shot_comment"
+        android:text="测试新接口one列表" />
+
+
+    <Button
+        android:id="@+id/bt_one_new_article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_one_list_bymonth"
+        android:text="测试one新接口文章" />
+
 </RelativeLayout>

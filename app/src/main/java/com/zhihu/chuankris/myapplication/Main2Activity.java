@@ -12,11 +12,14 @@ import dateprovider.model.NewsBefore;
 import dateprovider.model.NewsDetail;
 import dateprovider.model.NewsLongComment;
 import dateprovider.model.NewsShortComment;
+import dateprovider.model.OneArticleList;
+import dateprovider.model.OneNewArticle;
 import dateprovider.model.StartPicture;
 import dateprovider.retrofit.RetrolfitProvider;
 import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
+import util.ToastUtils;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -114,6 +117,46 @@ public class Main2Activity extends AppCompatActivity {
 
             @Override
             public void onNext(NewsShortComment oneArticle) {
+            }
+        });
+    }
+
+    @OnClick(R.id.bt_one_list_bymonth)
+    void getOneListBymonth() {
+        RetrolfitProvider.getInstance().getNewOneApi().getOneArticleList("2015-11-01").observeOn(AndroidSchedulers.mainThread()).unsubscribeOn(Schedulers.io()).subscribe(new Observer<OneArticleList>() {
+            @Override
+            public void onCompleted() {
+
+            }
+
+            @Override
+            public void onError(Throwable e) {
+
+            }
+
+            @Override
+            public void onNext(OneArticleList newsBefore) {
+                ToastUtils.showToast(newsBefore.getData().get(0).getHp_title());
+            }
+        });
+    }
+
+    @OnClick(R.id.bt_one_new_article)
+    void getOneArticleSpecil() {
+        RetrolfitProvider.getInstance().getNewOneApi().getOneArticleNew("1237").observeOn(AndroidSchedulers.mainThread()).unsubscribeOn(Schedulers.io()).subscribe(new Observer<OneNewArticle>() {
+            @Override
+            public void onCompleted() {
+
+            }
+
+            @Override
+            public void onError(Throwable e) {
+
+            }
+
+            @Override
+            public void onNext(OneNewArticle newsBefore) {
+                ToastUtils.showToast(newsBefore.getData().getWeb_url());
             }
         });
     }

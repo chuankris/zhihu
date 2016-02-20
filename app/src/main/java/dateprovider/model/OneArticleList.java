@@ -1,0 +1,145 @@
+package dateprovider.model;
+
+import java.util.List;
+
+/**
+ * Created by qiuxuechuan on 2016/2/20.
+ */
+public class OneArticleList {
+
+    /**
+     * res : 0
+     * data : [{"content_id":"1223","hp_title":"看云时很近","hp_makettime":"2015-11-30 22:00:00","guide_word":"现在的女孩写爱摄影爱旅行爱美食爱生活，写你还不来我怎敢变老，剩下的让自拍说话。世道让有些事变难了，也让有些事简单到叫人提不起兴趣再做。","author":[{"user_id":"4814955","user_name":"韩今谅","web_url":"","desc":"韩今谅，个体户。","wb_name":"@韩今谅"}]},{"content_id":"1233","hp_title":"我有很多坏毛病，但有爱你这个好习惯","hp_makettime":"2015-11-29 22:00:00","guide_word":"我们现在或曾经也像萱子，没安全感，又总是找不到恋爱的法门，每次想引起对方关注，却用了错的方式。抓得越紧，丢失得越快。","author":[{"user_id":"5541692","user_name":"顾奈","web_url":"http://image.wufazhuce.com/Fj1gaC3tocYcBo6yf_ZJsen9fXkp","desc":"顾奈，青年作者。@顾奈","wb_name":"@顾奈"}]},{"content_id":"1237","hp_title":"多余的人","hp_makettime":"2015-11-28 22:00:00","guide_word":"他总是这么犹犹豫豫，摇摆不定。他想找个城里的女人，又惋惜小镇里初恋的消逝，他对新的转变抱有向往，又背着记忆沉重的过往。","author":[{"user_id":"5541699","user_name":"魏运","web_url":"","desc":"魏运，作家。","wb_name":""}]},{"content_id":"1231","hp_title":"打字狗","hp_makettime":"2015-11-27 22:00:00","guide_word":"在孤独上，我们和一条狗并没有区别，是吧？","author":[{"user_id":"4814699","user_name":"哥舒意","web_url":"","desc":"作家。","wb_name":"@哥舒意"}]},{"content_id":"1232","hp_title":"盖世英雄","hp_makettime":"2015-11-26 22:00:00","guide_word":"也许父子之间，注定会是这样的结局。在你的目光里，我渐行渐远，头也不回。因为有你，才无所畏惧。","author":[{"user_id":"4813833","user_name":"路明","web_url":"","desc":"大学教师，「一个」App常驻作者。","wb_name":"@后排的路明"}]},{"content_id":"1228","hp_title":"杀死时间的恋人","hp_makettime":"2015-11-25 22:00:00","guide_word":"爱上一个遥不可及的人，叫离别；每每想到你仿佛又重新失去了一遍，也叫离别。 你没有如期归来，这是我选择离别的意义。","author":[{"user_id":"4814903","user_name":"贾彬彬","web_url":"","desc":"贾彬彬，青年作者。","wb_name":"二彬啊二彬"}]},{"content_id":"1227","hp_title":"最后的进化","hp_makettime":"2015-11-24 22:00:00","guide_word":"人类之所以到了今天还没有觉悟，是因为人类早已经停止了进化！","author":[{"user_id":"5538873","user_name":"欧阳乾","web_url":"http://image.wufazhuce.com/FqDC6nKhlaZkdwwsb3Pr-Xk8aqHj","desc":"作家、拳手、屌丝、不和平主义者。","wb_name":"@欧阳乾"}]},{"content_id":"1226","hp_title":"奔跑吧，兄弟！","hp_makettime":"2015-11-23 22:00:00","guide_word":"夜风清凉，拨开云层，露出满天石榴籽一样繁密的星星，让夏夜深处的梦境都有一种甜腻的味道。","author":[{"user_id":"4814680","user_name":"午歌","web_url":"http://image.wufazhuce.com/FkHGsPyNsM20Mu7ZlM6mox6RdFDb","desc":"80后机械高级工程师、青年作者、编剧。","wb_name":"@午歌"}]},{"content_id":"1230","hp_title":"一生要爱多少人","hp_makettime":"2015-11-22 22:00:00","guide_word":"但是爱情不同，它有激发性塑造性毁灭性还有创造性，它不是习惯，它应该反习惯反日常。它关乎我的大脑我的心还有我的子宫。","author":[{"user_id":"5553837","user_name":"红拂夜奔不复还","web_url":"","desc":"红拂夜奔不复还，编剧。","wb_name":"@红拂夜奔不复还"}]},{"content_id":"1225","hp_title":"不忠","hp_makettime":"2015-11-21 22:00:00","guide_word":"没过多久，她就分了手，成了他的情人。他还是丈夫。  丈夫有一大堆经得起推敲的理由，她则简单得多，她有点喜欢他，同时恰好跟男朋友不再那么喜欢。这种事总是很容易恰好。","author":[{"user_id":"4814798","user_name":"李诞","web_url":"http://image.wufazhuce.com/FlpJmwW6w9chkNf9N3cwepJnY7ZP","desc":"李诞，一米八三大诗人，谐星。作品《笑场》。@自扯自蛋","wb_name":""}]},{"content_id":"1221","hp_title":"回答","hp_makettime":"2015-11-20 22:00:00","guide_word":"星河在上，波光在下。我在你身边，等着你的回答。","author":[{"user_id":"4814747","user_name":"张寒寺","web_url":"http://image.wufazhuce.com/FlJ2uKL9qGrmdsyWZr_CmOwg_kjt","desc":"张寒寺，编剧，小说作者。微信公众号：Cattery_fan","wb_name":"@张寒寺"}]},{"content_id":"1229","hp_title":"做你喜欢的工作，还是世俗意义上的好工作？","hp_makettime":"2015-11-19 22:00:00","guide_word":"有人说，选一个爱人，决定了你每天上床睡觉前的环境。选一份事业，决定了你睁开眼每分每秒的心境。","author":[{"user_id":"4814697","user_name":"咪蒙","web_url":"","desc":"作家、编剧。","wb_name":"@咪蒙"}]},{"content_id":"1224","hp_title":"漂亮朋友","hp_makettime":"2015-11-18 22:00:00","guide_word":"他慌乱地向往过大千世界的华美，也冷静地厌恶过华美世界的虱子。 他诚挚地坚守过自己的每一分善良，也坦然地面对过自己的每一段邪念。","author":[{"user_id":"5553873","user_name":"梅骁","web_url":"","desc":"梅骁，写小说的。","wb_name":"@梅骁"}]},{"content_id":"1222","hp_title":"我们都爱雾霾天","hp_makettime":"2015-11-17 22:00:00","guide_word":"一只公鸡要飞过多少片海，才能成为一道菜。一个男人要吸多少雾霾，才能被称为天才。","author":[{"user_id":"4814913","user_name":"远子","web_url":"http://image.wufazhuce.com/FpxK_69dEyDmVThtzxgiKz0iV4bD","desc":"远子，作家。@远子归","wb_name":""}]},{"content_id":"1219","hp_title":"捕风的汉子","hp_makettime":"2015-11-16 22:00:00","guide_word":"阿龙说他年轻时以为世间万物唯快不破，现在才知道错了。","author":[{"user_id":"5553881","user_name":"拳王","web_url":"http://image.wufazhuce.com/Ficobx5Yr9QzUowXBHJre3amj1hg","desc":"拳王，金融民工，业余码字、泰拳手和严肃厨师。@MC拳王","wb_name":"@MC拳王"}]},{"content_id":"1220","hp_title":"外婆","hp_makettime":"2015-11-15 22:00:00","guide_word":"以前我外婆给我钱的时候说，你还没毕业，后来要给我钱的时候，说你还没赚钱，现在还想着给我钱，说我还没结婚。她总这样，喜欢时不时给我点钱，给钱的时候她总有一个理由。她说，你反正永远比我小。","author":[{"user_id":"5553884","user_name":"赵挺","web_url":"","desc":"赵挺，青年写作者。","wb_name":"@赵挺1988"}]},{"content_id":"1217","hp_title":"献给爱丽丝","hp_makettime":"2015-11-14 22:00:00","guide_word":"我们的交集只是一曲《献给爱丽丝》，它简单的旋律让弹琴的人变得独特，旋律停止以后，她将被她的生活慢慢淹没。","author":[{"user_id":"4814689","user_name":"吴浩然","web_url":"","desc":"青年作家。","wb_name":"@浩然习比"}]},{"content_id":"1204","hp_title":"孩子们","hp_makettime":"2015-11-13 22:00:00","guide_word":"\u201c我不杀你们，是因为今晚有人替你们付出了代价。\u201d","author":[{"user_id":"4814715","user_name":"孔龙","web_url":"http://image.wufazhuce.com/FnokT0hC0BMJZeD_PahCmDUJ0Tm9","desc":"警察，青年写作者。@孔龙loong，微信公众号：孔龙故事。","wb_name":"@孔龙loong "}]},{"content_id":"1215","hp_title":"怦然心动","hp_makettime":"2015-11-12 22:00:00","guide_word":"我等不及了，想一念之间我们就都长大。我要抱着你，亲吻你，做最美好的事。既温柔，又火热。","author":[{"user_id":"5553895","user_name":"秋名","web_url":"http://image.wufazhuce.com/FvZX7Jldv1jvJwkWYAUiJ5oHMrkT","desc":"秋名，青年写作者。","wb_name":"@秋名xcl"}]},{"content_id":"1212","hp_title":"男友的前女友","hp_makettime":"2015-11-11 22:00:00","guide_word":"我默默放回手机，呆坐到沙发上，任凭新的打击劈头盖脸地袭来。我反复在心里咀嚼这段对话，只有寥寥数语，然而每个字、每个表情之间，都涌动着亲密相处多年，累积下来的默契和举重若轻。","author":[{"user_id":"4814768","user_name":"方慧","web_url":"","desc":"方慧，90后作者、编剧，已在「一个」发表《S小姐的朋友圈》、《手机里的男朋友》、《微博自杀记》等文。著有新书《手机里的男朋友》。","wb_name":"@方慧"}]},{"content_id":"1218","hp_title":"七月公园","hp_makettime":"2015-11-10 22:00:00","guide_word":"那摇曳在大雪里，却没法驱散饥饿的风铃，就像爱你，绵薄无力，我无能为力。","author":[{"user_id":"4814667","user_name":"凉炘","web_url":"http://image.wufazhuce.com/FuNj-BgsXpEfepqDr1gJF-1i2znX","desc":"「ONE·一个」常驻作者。","wb_name":"@凉炘Nary"}]},{"content_id":"1199","hp_title":"蜜月","hp_makettime":"2015-11-09 22:00:00","guide_word":"爱情是一种假象，但这些假象支撑着人的生活。 因为它成了一种习惯，一种感觉，一种潜意识。 它让人粗心大意，忽略掉彼此的许多，甚至误以为对方已经可有可无。 只是当有一天你真的要离对方而去的时候，所有过往的细节都一应清晰，它们拉住你，请求你：一定要好好看清楚。","author":[{"user_id":"4814871","user_name":"红俗手","web_url":"","desc":"红俗手，青年写作者。","wb_name":"红俗手"}]},{"content_id":"1216","hp_title":"拳王","hp_makettime":"2015-11-08 22:00:00","guide_word":"胡胖子说，打拳的人无所畏惧。我很幸运，或许这一辈子大多数时间都庸庸碌碌，可至少，我有过一段燃烧的时光。","author":[{"user_id":"4813833","user_name":"路明","web_url":"","desc":"大学教师，「一个」App常驻作者。","wb_name":"@后排的路明"}]},{"content_id":"1207","hp_title":"猫眼","hp_makettime":"2015-11-07 22:00:00","guide_word":"你以为只有你知道的事情，也许被别的什么尽收眼底，所以，还是努力做一个问心无愧的人吧。","author":[{"user_id":"4814920","user_name":"郑在欢","web_url":"","desc":"郑在欢，青年作者。","wb_name":"郑在欢"}]},{"content_id":"1211","hp_title":"不如开始一段放弃你的生活","hp_makettime":"2015-11-06 22:00:00","guide_word":"恋爱让自己的世界变小，失恋了就要把原本应有的世界找回来。我们因爱而完满，想开，看开，放开，提及也再无涟漪，相见也心生坦然。","author":[{"user_id":"4813530","user_name":"张皓宸","web_url":"","desc":"作家、编剧，「一个」常驻作者。","wb_name":"@张皓宸"}]},{"content_id":"1205","hp_title":"伤心高手","hp_makettime":"2015-11-05 22:00:00","guide_word":"爱情一场江湖，不让爱人伤心，就是行侠仗义。","author":[{"user_id":"4814921","user_name":"郑执","web_url":"","desc":"郑执，作家、编剧。曾在「一个」App发表文章《我在时间尽头等你》、《少女的祈祷》、《杀信鸽的人》","wb_name":"郑执"}]},{"content_id":"1208","hp_title":"我喜欢你的朋友圈","hp_makettime":"2015-11-04 22:00:00","guide_word":"生活就像走路，有时候你就得勇敢地迈出第一步，第二步才会跟上。","author":[{"user_id":"5541592","user_name":"王乌乌","web_url":"","desc":"王乌乌，青年作者。","wb_name":"@王乌乌在越狱"}]},{"content_id":"1213","hp_title":"我的王八蛋","hp_makettime":"2015-11-03 22:00:00","guide_word":"喜欢什么不重要，重要的是，你如何去面对这份喜欢，重要的是，你是否有能力去喜欢，是否有尽力去触碰，是否有定力去坚守，是否有魄力去取舍，是否有权利去选择。","author":[{"user_id":"4813554","user_name":"大冰","web_url":"","desc":"野生作家，「一个」App常驻作者。","wb_name":"@大冰"}]},{"content_id":"1214","hp_title":"隐形备胎","hp_makettime":"2015-11-02 22:00:00","guide_word":"轿车烧掉最后的汽油，唱片机换上新的黑胶，酒吧里的人纷纷散去，早餐店的三明治刚好新鲜出炉。而滚滚红尘中，那份卑微的、低声下气的爱，终于也熄灭了。","author":[{"user_id":"5553913","user_name":"周苏婕","web_url":"","desc":"周苏婕，青年作家。","wb_name":"@anan周苏婕"}]},{"content_id":"1206","hp_title":"尴尬犯","hp_makettime":"2015-11-01 22:00:00","guide_word":"做任何决定前，要学会观察、聆听和交流，这能消除大部分的误会，解决大多数的问题。","author":[{"user_id":"4814702","user_name":"囧叔","web_url":"","desc":"作家，编剧。","wb_name":"@一条囧叔摇着尾巴叫道"}]}]
+     */
+
+    private int res;
+    /**
+     * content_id : 1223
+     * hp_title : 看云时很近
+     * hp_makettime : 2015-11-30 22:00:00
+     * guide_word : 现在的女孩写爱摄影爱旅行爱美食爱生活，写你还不来我怎敢变老，剩下的让自拍说话。世道让有些事变难了，也让有些事简单到叫人提不起兴趣再做。
+     * author : [{"user_id":"4814955","user_name":"韩今谅","web_url":"","desc":"韩今谅，个体户。","wb_name":"@韩今谅"}]
+     */
+
+    private List<DataEntity> data;
+
+    public void setRes(int res) {
+        this.res = res;
+    }
+
+    public void setData(List<DataEntity> data) {
+        this.data = data;
+    }
+
+    public int getRes() {
+        return res;
+    }
+
+    public List<DataEntity> getData() {
+        return data;
+    }
+
+    public static class DataEntity {
+        private String content_id;
+        private String hp_title;
+        private String hp_makettime;
+        private String guide_word;
+        /**
+         * user_id : 4814955
+         * user_name : 韩今谅
+         * web_url :
+         * desc : 韩今谅，个体户。
+         * wb_name : @韩今谅
+         */
+
+        private List<AuthorEntity> author;
+
+        public void setContent_id(String content_id) {
+            this.content_id = content_id;
+        }
+
+        public void setHp_title(String hp_title) {
+            this.hp_title = hp_title;
+        }
+
+        public void setHp_makettime(String hp_makettime) {
+            this.hp_makettime = hp_makettime;
+        }
+
+        public void setGuide_word(String guide_word) {
+            this.guide_word = guide_word;
+        }
+
+        public void setAuthor(List<AuthorEntity> author) {
+            this.author = author;
+        }
+
+        public String getContent_id() {
+            return content_id;
+        }
+
+        public String getHp_title() {
+            return hp_title;
+        }
+
+        public String getHp_makettime() {
+            return hp_makettime;
+        }
+
+        public String getGuide_word() {
+            return guide_word;
+        }
+
+        public List<AuthorEntity> getAuthor() {
+            return author;
+        }
+
+        public static class AuthorEntity {
+            private String user_id;
+            private String user_name;
+            private String web_url;
+            private String desc;
+            private String wb_name;
+
+            public void setUser_id(String user_id) {
+                this.user_id = user_id;
+            }
+
+            public void setUser_name(String user_name) {
+                this.user_name = user_name;
+            }
+
+            public void setWeb_url(String web_url) {
+                this.web_url = web_url;
+            }
+
+            public void setDesc(String desc) {
+                this.desc = desc;
+            }
+
+            public void setWb_name(String wb_name) {
+                this.wb_name = wb_name;
+            }
+
+            public String getUser_id() {
+                return user_id;
+            }
+
+            public String getUser_name() {
+                return user_name;
+            }
+
+            public String getWeb_url() {
+                return web_url;
+            }
+
+            public String getDesc() {
+                return desc;
+            }
+
+            public String getWb_name() {
+                return wb_name;
+            }
+        }
+    }
+}

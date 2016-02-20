@@ -28,7 +28,9 @@ public class RetrolfitProvider {
     private OneApi OneApi;
     private ZhihuApi zhihuApi;
 
+    private OneApi NewOneApi;
     private static final String ONE_URL = AppConfig.getOneUrl();
+    private static final String NEWONE_URL = AppConfig.getNewOneUrl();
     private static final String ZHIHU_URL = AppConfig.getZhihuUrl();
     final static Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss")
 //            .registerTypeAdapter(java.util.Date.class, new DateSerializer())//json编码
@@ -43,6 +45,10 @@ public class RetrolfitProvider {
 
     public OneApi getOneApi() {
         return OneApi;
+    }
+
+    public OneApi getNewOneApi() {
+        return NewOneApi;
     }
 
     public ZhihuApi getZhihuApi() {
@@ -76,6 +82,15 @@ public class RetrolfitProvider {
                 build();
         oneAdapter.setLogLevel(RestAdapter.LogLevel.FULL);
         OneApi = oneAdapter.create(OneApi.class);
+
+        //new version of one api
+        RestAdapter newOneAdapter = builder.
+                setClient(new OkClient(client)).
+                setEndpoint(NEWONE_URL).
+                setConverter(new GsonConverter(gson)).
+                build();
+        newOneAdapter.setLogLevel(RestAdapter.LogLevel.FULL);
+        NewOneApi = newOneAdapter.create(OneApi.class);
 
 
         RestAdapter zhihuAdapter = builder.setClient(new OkClient(client)).setEndpoint(ZHIHU_URL).setConverter(new GsonConverter(gson)).build();
